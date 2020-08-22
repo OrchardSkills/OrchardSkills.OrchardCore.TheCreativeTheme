@@ -1,5 +1,7 @@
 # Orchard Core Creative Theme
 
+## Designng a Theme for Orchard Core
+
 # [YouTube Video](https://youtu.be/Hc6cTf211Cs)
 
 [![OrchardSkillsYouTubeThumbNailTheme](https://user-images.githubusercontent.com/59172485/90962686-1e5aee80-e46f-11ea-8ad1-cf486f5e9003.png)](https://youtu.be/Hc6cTf211Cs)
