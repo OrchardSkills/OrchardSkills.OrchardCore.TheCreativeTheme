@@ -296,54 +296,6 @@
                   "Position": "4"
                 }
               }
-            },
-            {
-              "PartName": "BagPart",
-              "Name": "About",
-              "Settings": {
-                "ContentTypePartSettings": {
-                  "DisplayName": "About",
-                  "Description": "A collection of milestones",
-                  "Position": "5"
-                },
-                "BagPartSettings": {
-                  "ContainedContentTypes": [
-                    "Milestone"
-                  ]
-                }
-              }
-            },
-            {
-              "PartName": "BagPart",
-              "Name": "Team",
-              "Settings": {
-                "ContentTypePartSettings": {
-                  "DisplayName": "Team",
-                  "Description": "Team members",
-                  "Position": "6"
-                },
-                "BagPartSettings": {
-                  "ContainedContentTypes": [
-                    "TeamMember"
-                  ]
-                }
-              }
-            },
-            {
-              "PartName": "BagPart",
-              "Name": "Clients",
-              "Settings": {
-                "ContentTypePartSettings": {
-                  "DisplayName": "Clients",
-                  "Description": "Provides a collection behavior for your content item.",
-                  "Position": "7"
-                },
-                "BagPartSettings": {
-                  "ContainedContentTypes": [
-                    "Client"
-                  ]
-                }
-              }
             }
           ]
         },
@@ -396,87 +348,6 @@
             {
               "PartName": "HtmlBodyPart",
               "Name": "HtmlBodyPart",
-              "Settings": {
-                "ContentTypePartSettings": {
-                  "Position": "1"
-                }
-              }
-            },
-            {
-              "PartName": "TitlePart",
-              "Name": "TitlePart",
-              "Settings": {
-                "ContentTypePartSettings": {
-                  "Position": "0"
-                }
-              }
-            }
-          ]
-        },
-        {
-          "Name": "Milestone",
-          "DisplayName": "Milestone",
-          "ContentTypePartDefinitionRecords": [
-            {
-              "PartName": "Milestone",
-              "Name": "Milestone",
-              "Settings": {
-                "ContentTypePartSettings": {
-                  "Position": "0"
-                }
-              }
-            },
-            {
-              "PartName": "HtmlBodyPart",
-              "Name": "HtmlBodyPart",
-              "Settings": {
-                "ContentTypePartSettings": {
-                  "Position": "2"
-                }
-              }
-            },
-            {
-              "PartName": "TitlePart",
-              "Name": "TitlePart",
-              "Settings": {
-                "ContentTypePartSettings": {
-                  "Position": "1"
-                }
-              }
-            }
-          ]
-        },
-        {
-          "Name": "TeamMember",
-          "DisplayName": "Team Member",
-          "ContentTypePartDefinitionRecords": [
-            {
-              "PartName": "TeamMember",
-              "Name": "TeamMember",
-              "Settings": {
-                "ContentTypePartSettings": {
-                  "Position": "1"
-                }
-              }
-            },
-            {
-              "PartName": "TitlePart",
-              "Name": "TitlePart",
-              "Settings": {
-                "ContentTypePartSettings": {
-                  "Position": "0"
-                }
-              }
-            }
-          ]
-        },
-        {
-          "Name": "Client",
-          "DisplayName": "Client",
-          "ContentTypePartDefinitionRecords": [
-            {
-              "PartName": "Client",
-              "Name": "Client",
               "Settings": {
                 "ContentTypePartSettings": {
                   "Position": "1"
@@ -717,7 +588,7 @@
                 },
                 "MediaFieldSettings": {
                   "Required": true,
-                  "Multiple":  false
+                  "Multiple": false
                 }
               }
             },
@@ -731,135 +602,6 @@
                 },
                 "TextFieldSettings": {
                   "Hint": "The category that is displayed below the title"
-                }
-              }
-            }
-          ]
-        },
-        {
-          "Name": "Milestone",
-          "Settings": {},
-          "ContentPartFieldDefinitionRecords": [
-            {
-              "FieldName": "TextField",
-              "Name": "Date",
-              "Settings": {
-                "ContentPartFieldSettings": {
-                  "DisplayName": "Date",
-                  "Position": "0"
-                }
-              }
-            },
-            {
-              "FieldName": "MediaField",
-              "Name": "Image",
-              "Settings": {
-                "ContentPartFieldSettings": {
-                  "DisplayName": "Image",
-                  "Position": "1"
-                },
-                "MediaFieldSettings": {
-                  "Required": true,
-                  "Multiple": false
-                }
-              }
-            }
-          ]
-        },
-        {
-          "Name": "TeamMember",
-          "Settings": {},
-          "ContentPartFieldDefinitionRecords": [
-            {
-              "FieldName": "TextField",
-              "Name": "Occupation",
-              "Settings": {
-                "ContentPartFieldSettings": {
-                  "DisplayName": "Occupation",
-                  "Position": "0"
-                }
-              }
-            },
-            {
-              "FieldName": "MediaField",
-              "Name": "Picture",
-              "Settings": {
-                "ContentPartFieldSettings": {
-                  "DisplayName": "Picture",
-                  "Position": "1"
-                },
-                "MediaFieldSettings": {
-                  "Required": true,
-                  "Multiple": false
-                }
-              }
-            },
-            {
-              "FieldName": "TextField",
-              "Name": "Twitter",
-              "Settings": {
-                "ContentPartFieldSettings": {
-                  "DisplayName": "Twitter",
-                  "Position": "2"
-                },
-                "TextFieldSettings": {
-                  "Hint": "Twitter handle, e.g. @BillGates"
-                }
-              }
-            },
-            {
-              "FieldName": "TextField",
-              "Name": "Facebook",
-              "Settings": {
-                "ContentPartFieldSettings": {
-                  "DisplayName": "Facebook",
-                  "Position": "3"
-                },
-                "TextFieldSettings": {
-                  "Hint": "Facebook handle"
-                }
-              }
-            },
-            {
-              "FieldName": "TextField",
-              "Name": "LinkedIn",
-              "Settings": {
-                "ContentPartFieldSettings": {
-                  "DisplayName": "LinkedIn",
-                  "Position": "4"
-                },
-                "TextFieldSettings": {
-                  "Hint": "LinkedIn handle"
-                }
-              }
-            }
-          ]
-        },
-        {
-          "Name": "Client",
-          "Settings": {},
-          "ContentPartFieldDefinitionRecords": [
-            {
-              "FieldName": "MediaField",
-              "Name": "Logo",
-              "Settings": {
-                "ContentPartFieldSettings": {
-                  "DisplayName": "Logo",
-                  "Position": "0"
-                },
-                "MediaFieldSettings": {
-                  "Required": true,
-                  "Multiple": false
-                }
-              }
-            },
-            {
-              "FieldName": "TextField",
-              "Name": "Url",
-              "Settings": {
-                "ContentPartFieldSettings": {
-                  "DisplayName": "Url",
-                  "Position": "1"
                 }
               }
             }
@@ -979,6 +721,59 @@
       ]
     },
     {
+      "name": "media",
+      "Files": [
+        {
+          "TargetPath": "fullsize/1.jpg",
+          "SourcePath": "../wwwroot/img/portfolio/fullsize/1.jpg"
+        },
+        {
+          "TargetPath": "fullsize/2.jpg",
+          "SourcePath": "../wwwroot/img/portfolio/fullsize/2.jpg"
+        },
+        {
+          "TargetPath": "fullsize/3.jpg",
+          "SourcePath": "../wwwroot/img/portfolio/fullsize/3.jpg"
+        },
+        {
+          "TargetPath": "fullesize/4.jpg",
+          "SourcePath": "../wwwroot/img/portfolio/fullsize/4.jpg"
+        },
+        {
+          "TargetPath": "fullesize/5.jpg",
+          "SourcePath": "../wwwroot/img/portfolio/fullsize/5.jpg"
+        },
+        {
+          "TargetPath": "fullesize/6.jpg",
+          "SourcePath": "../wwwroot/img/portfolio/fullsize/6.jpg"
+        },
+        {
+          "TargetPath": "thumbnails/1.jpg",
+          "SourcePath": "../wwwroot/img/portfolio/thumbnails/1.jpg"
+        },
+        {
+          "TargetPath": "thumbnails/2.jpg",
+          "SourcePath": "../wwwroot/img/portfolio/thumbnails/2.jpg"
+        },
+        {
+          "TargetPath": "thumbnails/3.jpg",
+          "SourcePath": "../wwwroot/img/portfolio/thumbnails/3.jpg"
+        },
+        {
+          "TargetPath": "thumbnails/4.jpg",
+          "SourcePath": "../wwwroot/img/portfolio/thumbnails/4.jpg"
+        },
+        {
+          "TargetPath": "thumbnails/5.jpg",
+          "SourcePath": "../wwwroot/img/portfolio/thumbnails/5.jpg"
+        },
+        {
+          "TargetPath": "thumbnails/6.jpg",
+          "SourcePath": "../wwwroot/img/portfolio/thumbnails/6.jpg"
+        }
+      ]
+    },
+    {
       "name": "Content",
       "data": [
         {
@@ -1018,14 +813,6 @@
                 "LinkMenuItemPart": {
                   "Name": "About",
                   "Url": "~/#about"
-                }
-              },
-              {
-                "ContentType": "LinkMenuItem",
-                "ContentItemId": "[js:uuid()]",
-                "LinkMenuItemPart": {
-                  "Name": "Team",
-                  "Url": "~/#team"
                 }
               },
               {
@@ -1140,7 +927,7 @@
                 "Project": {
                   "Image": {
                     "Paths": [
-                      "/portfolio/01-full.jpg"
+                      "/fullsize/1.jpg"
                     ]
                   },
                   "Category": {
@@ -1166,7 +953,7 @@
                 "Project": {
                   "Image": {
                     "Paths": [
-                      "/portfolio/02-full.jpg"
+                      "/fullsize/2.jpg"
                     ]
                   },
                   "Category": {
@@ -1192,7 +979,7 @@
                 "Project": {
                   "Image": {
                     "Paths": [
-                      "/portfolio/03-full.jpg"
+                      "/fullsize/3.jpg"
                     ]
                   },
                   "Category": {
@@ -1218,7 +1005,7 @@
                 "Project": {
                   "Image": {
                     "Paths": [
-                      "/portfolio/04-full.jpg"
+                      "/fullsize/4.jpg"
                     ]
                   },
                   "Category": {
@@ -1244,7 +1031,7 @@
                 "Project": {
                   "Image": {
                     "Paths": [
-                      "/portfolio/05-full.jpg"
+                      "/fullsize/5.jpg"
                     ]
                   },
                   "Category": {
@@ -1270,7 +1057,7 @@
                 "Project": {
                   "Image": {
                     "Paths": [
-                      "/portfolio/06-full.jpg"
+                      "/fullsize/6.jpg"
                     ]
                   },
                   "Category": {
@@ -1282,310 +1069,6 @@
                 },
                 "TitlePart": {
                   "Title": "Window"
-                }
-              }
-            ]
-          },
-          "About": {
-            "ContentItems": [
-              {
-                "ContentItemId": "[js:uuid()]",
-                "ContentItemVersionId": "[js:uuid()]",
-                "ContentType": "Milestone",
-                "DisplayText": "Our Humble Beginnings",
-                "Latest": false,
-                "Published": false,
-                "Owner": null,
-                "Author": "[js: parameters('AdminUsername')]",
-                "Milestone": {
-                  "Date": {
-                    "Text": "2009-2011"
-                  },
-                  "Image": {
-                    "Paths": [
-                      "/about/1.jpg"
-                    ]
-                  }
-                },
-                "HtmlBodyPart": {
-                  "Html": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-                },
-                "TitlePart": {
-                  "Title": "Our Humble Beginnings"
-                }
-              },
-              {
-                "ContentItemId": "[js:uuid()]",
-                "ContentItemVersionId": "[js:uuid()]",
-                "ContentType": "Milestone",
-                "DisplayText": "An Creative is Born",
-                "Latest": false,
-                "Published": false,
-                "Owner": null,
-                "Author": "[js: parameters('AdminUsername')]",
-                "Milestone": {
-                  "Date": {
-                    "Text": "MARCH 2011"
-                  },
-                  "Image": {
-                    "Paths": [
-                      "/about/2.jpg"
-                    ]
-                  }
-                },
-                "HtmlBodyPart": {
-                  "Html": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!\r\n"
-                },
-                "TitlePart": {
-                  "Title": "An Creative is Born"
-                }
-              },
-              {
-                "ContentItemId": "[js:uuid()]",
-                "ContentItemVersionId": "[js:uuid()]",
-                "ContentType": "Milestone",
-                "DisplayText": "Transition to Full Service",
-                "Latest": false,
-                "Published": false,
-                "Owner": null,
-                "Author": "[js: parameters('AdminUsername')]",
-                "Milestone": {
-                  "Date": {
-                    "Text": "DECEMBER 2012"
-                  },
-                  "Image": {
-                    "Paths": [
-                      "/about/3.jpg"
-                    ]
-                  }
-                },
-                "HtmlBodyPart": {
-                  "Html": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-                },
-                "TitlePart": {
-                  "Title": "Transition to Full Service"
-                }
-              },
-              {
-                "ContentItemId": "[js:uuid()]",
-                "ContentItemVersionId": "[js:uuid()]",
-                "ContentType": "Milestone",
-                "DisplayText": "Phase Two Expansion",
-                "Latest": false,
-                "Published": false,
-                "Owner": null,
-                "Author": "[js: parameters('AdminUsername')]",
-                "Milestone": {
-                  "Date": {
-                    "Text": "JULY 2014"
-                  },
-                  "Image": {
-                    "Paths": [
-                      "/about/4.jpg"
-                    ]
-                  }
-                },
-                "HtmlBodyPart": {
-                  "Html": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!\r\n"
-                },
-                "TitlePart": {
-                  "Title": "Phase Two Expansion"
-                }
-              }
-            ]
-          },
-          "Team": {
-            "ContentItems": [
-              {
-                "ContentItemId": "[js:uuid()]",
-                "ContentItemVersionId": "[js:uuid()]",
-                "ContentType": "TeamMember",
-                "DisplayText": "Kay Garland",
-                "Latest": false,
-                "Published": false,
-                "Owner": null,
-                "Author": "[js: parameters('AdminUsername')]",
-                "TeamMember": {
-                  "Occupation": {
-                    "Text": "Lead Designer"
-                  },
-                  "Picture": {
-                    "Paths": [
-                      "/team/1.jpg"
-                    ]
-                  },
-                  "Twitter": {
-                    "Text": "@BillGates"
-                  },
-                  "Facebook": {
-                    "Text": "BillGates"
-                  },
-                  "LinkedIn": {
-                    "Text": "williamhgates"
-                  }
-                },
-                "TitlePart": {
-                  "Title": "Kay Garland"
-                }
-              },
-              {
-                "ContentItemId": "[js:uuid()]",
-                "ContentItemVersionId": "[js:uuid()]",
-                "ContentType": "TeamMember",
-                "DisplayText": "Larry Parker",
-                "Latest": false,
-                "Published": false,
-                "Owner": null,
-                "Author": "[js: parameters('AdminUsername')]",
-                "TeamMember": {
-                  "Occupation": {
-                    "Text": "Lead Marketer"
-                  },
-                  "Picture": {
-                    "Paths": [
-                      "/team/2.jpg"
-                    ]
-                  },
-                  "Twitter": {
-                    "Text": "@BillGates"
-                  },
-                  "Facebook": {
-                    "Text": "BillGates"
-                  },
-                  "LinkedIn": {
-                    "Text": "williamhgates"
-                  }
-                },
-                "TitlePart": {
-                  "Title": "Larry Parker"
-                }
-              },
-              {
-                "ContentItemId": "[js:uuid()]",
-                "ContentItemVersionId": "[js:uuid()]",
-                "ContentType": "TeamMember",
-                "DisplayText": "Diana Pertersen",
-                "Latest": false,
-                "Published": false,
-                "Owner": null,
-                "Author": "[js: parameters('AdminUsername')]",
-                "TeamMember": {
-                  "Occupation": {
-                    "Text": "Lead Developer"
-                  },
-                  "Picture": {
-                    "Paths": [
-                      "/team/3.jpg"
-                    ]
-                  },
-                  "Twitter": {
-                    "Text": "@BillGates"
-                  },
-                  "Facebook": {
-                    "Text": "BillGates"
-                  },
-                  "LinkedIn": {
-                    "Text": "williamhgates"
-                  }
-                },
-                "TitlePart": {
-                  "Title": "Diana Pertersen"
-                }
-              }
-            ]
-          },
-          "Clients": {
-            "ContentItems": [
-              {
-                "ContentItemId": "[js:uuid()]",
-                "ContentItemVersionId": "[js:uuid()]",
-                "ContentType": "Client",
-                "DisplayText": "Envato",
-                "Latest": false,
-                "Published": false,
-                "Owner": null,
-                "Author": "[js: parameters('AdminUsername')]",
-                "Client": {
-                  "Logo": {
-                    "Paths": [
-                      "/logos/envato.jpg"
-                    ]
-                  },
-                  "Url": {
-                    "Text": "#"
-                  }
-                },
-                "TitlePart": {
-                  "Title": "Envato"
-                }
-              },
-              {
-                "ContentItemId": "[js:uuid()]",
-                "ContentItemVersionId": "[js:uuid()]",
-                "ContentType": "Client",
-                "DisplayText": "Design Moto",
-                "Latest": false,
-                "Published": false,
-                "Owner": null,
-                "Author": "[js: parameters('AdminUsername')]",
-                "Client": {
-                  "Logo": {
-                    "Paths": [
-                      "/logos/designmodo.jpg"
-                    ]
-                  },
-                  "Url": {
-                    "Text": "#"
-                  }
-                },
-                "TitlePart": {
-                  "Title": "Design Moto"
-                }
-              },
-              {
-                "ContentItemId": "[js:uuid()]",
-                "ContentItemVersionId": "[js:uuid()]",
-                "ContentType": "Client",
-                "DisplayText": "ThemeForest",
-                "Latest": false,
-                "Published": false,
-                "Owner": null,
-                "Author": "[js: parameters('AdminUsername')]",
-                "Client": {
-                  "Logo": {
-                    "Paths": [
-                      "/logos/themeforest.jpg"
-                    ]
-                  },
-                  "Url": {
-                    "Text": "#"
-                  }
-                },
-                "TitlePart": {
-                  "Title": "ThemeForest"
-                }
-              },
-              {
-                "ContentItemId": "[js:uuid()]",
-                "ContentItemVersionId": "[js:uuid()]",
-                "ContentType": "Client",
-                "DisplayText": "Creative",
-                "Latest": false,
-                "Published": false,
-                "Owner": null,
-                "Author": "[js: parameters('AdminUsername')]",
-                "Client": {
-                  "Logo": {
-                    "Paths": [
-                      "/logos/creative-market.jpg"
-                    ]
-                  },
-                  "Url": {
-                    "Text": "#"
-                  }
-                },
-                "TitlePart": {
-                  "Title": "Creative"
                 }
               }
             ]
